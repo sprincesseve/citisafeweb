@@ -1,0 +1,96 @@
+.alert-notif {
+  opacity: 0;
+  display: flex;
+  width: 500px;
+  height: 180px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  right: 0;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 8px 0.2px #243b18;
+}
+
+.message-div {
+  display: flex;
+  flex-direction: row;
+  z-index: 9999;
+}
+
+.alert-notif.active {
+  transform: translateY(0);
+  opacity: 1;
+  flex-direction: column;
+}
+
+.notif-gif {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.message-cont {
+  line-height: 7px;
+  margin-left: 10px;
+}
+
+.button-alert {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .alert-notif {
+    width: 40vh;
+    background-color: #ffffff;
+  }
+  .message-cont {
+    line-height: 15px;
+    margin-left: 10px;
+  }
+  .button-alert {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 0px;
+  }
+}
+
+/* Add slide down and slide up effect */
+@keyframes slideDownFadeIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpFadeOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.alert-notif {
+  animation: slideDownFadeIn 0.5s ease-in-out;
+}
+
+.alert-notif:not(.active) {
+  animation: slideUpFadeOut 0.5s ease-in-out;
+}

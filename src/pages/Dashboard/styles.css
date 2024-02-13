@@ -1,0 +1,248 @@
+.chart-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.inner-container {
+  display: flex;
+  height: 85vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+.white-container-dash {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  padding: 2vh;
+  height: 80vh;
+  flex-direction: column;
+}
+.graph-con {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.greet-date {
+  background-color: #e7e6e6;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1px;
+}
+.month-cont {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 120vh;
+  margin-left: 1vh;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e6e6;
+}
+.graph-con.B {
+  margin-top: 1vh;
+}
+
+.total-today-cont {
+  background-color: #e7e6e6;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vh;
+  line-height: 10px;
+}
+.tracker-cont {
+  display: flex;
+  flex-direction: column;
+  line-height: 1px;
+  height: 40vh;
+  width: 60vh;
+  margin-left: 1vh;
+  border-radius: 20px;
+  align-items: center;
+  background-color: #e7e6e6;
+}
+.total-week-cont {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 60vh;
+  margin-left: 1vh;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e6e6;
+}
+.chart-cont.A {
+  width: 100vh;
+  height: 30vh;
+}
+.chart-cont.C {
+  width: 50vh;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greeting-p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2vh;
+  text-align: center;
+}
+.current-time-p {
+  font-size: 3vh;
+  font-weight: bold;
+}
+.date-cont-p {
+  display: flex;
+  line-height: 1vh;
+}
+.current-date-p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2vh;
+  text-align: center;
+  margin-right: 1vh;
+}
+.day-of-week-p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2vh;
+  text-align: center;
+}
+.total-violation-p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vh;
+}
+.title-container-total-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vh;
+}
+.title-container {
+  background-color: #008000;
+  border-radius: 30px;
+  height: 4vh;
+  width: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5vh;
+}
+.container-oval {
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.container-oval.A {
+  width: 95%;
+}
+.total {
+  text-align: center;
+}
+.chart-cont.D {
+  height: 100%;
+  width: 90%;
+}
+.container-oval.D {
+  width: 90%;
+}
+.violation-tracker-p {
+  font-weight: bold;
+  font-size: 2vh;
+  margin-top: 3vh;
+}
+.ticketDay-h1 {
+  font-size: 10vh;
+}
+@media (max-width: 960px) {
+  .greet-date {
+    height: 30vh;
+    width: 30vh;
+  }
+
+  .month-cont {
+    height: 30vh;
+    width: 60vh;
+  }
+  .chart-cont.A {
+    width: 100%;
+  }
+  .chart-cont.A {
+    width: 50vh;
+    height: 20vh;
+  }
+
+  .tracker-cont {
+    height: 30vh;
+    width: 28vh;
+  }
+
+  .total-today-cont {
+    background-color: #e7e6e6;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 0.5vh;
+  }
+  .total-week-cont {
+    height: 30vh;
+    width: 31vh;
+  }
+  .white-container-dash {
+    align-items: flex-start;
+  }
+  .chart-cont.C {
+    width: 70%;
+    height: 70%;
+    display: flex;
+  }
+  .graph-cont.C {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .graph-con {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .greet-date,
+  .month-cont,
+  .total-today-cont,
+  .tracker-cont,
+  .total-week-cont {
+    height: 40vh;
+    width: 40vh;
+    margin-bottom: 2vh;
+  }
+
+  .chart-cont.A {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .chart-cont.C {
+    width: 50vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

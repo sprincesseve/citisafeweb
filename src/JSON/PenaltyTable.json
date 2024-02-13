@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "violation_type": "Blablablabla explain explain",
+    "penalty_id": 1
+  },
+  {
+    "id": 2,
+    "violation_type": "Blablablabla explain explainBlablablabla explain explainBlablablabla explain explain",
+    "penalty_id": 2
+  }
+]

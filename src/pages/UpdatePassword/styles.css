@@ -1,0 +1,64 @@
+.updateContainer {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.inner-update {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 20vh;
+  height: auto;
+  padding: 20px;
+  /* box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.397); */
+  border-radius: 30px;
+}
+.inner-container-update {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.input-up {
+}
+.PassStyles {
+  margin-top: 10px;
+}
+.update-img {
+  width: 30vh;
+  height: 30vh;
+}
+
+@media (max-width: 1199px) {
+  .inner-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.397);
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .inner-container-update {
+    width: 100%;
+  }
+  .inner-update {
+    margin-top: -100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .inner-update {
+    width: auto;
+    height: auto;
+    margin-top: 4vh;
+  }
+}

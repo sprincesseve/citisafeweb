@@ -1,0 +1,131 @@
+.containerLogin {
+  background: linear-gradient(to right, #5c9b3d 45%, white 0%);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.image-css {
+  width: 45vh;
+}
+.white-container {
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.384);
+  border-radius: 50px;
+  width: 120vh;
+  height: 70vh;
+  display: flex;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.whole-pass-cont {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-css {
+  outline: none;
+  height: 25px;
+  font-size: 17px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 40px;
+  border-radius: 30px;
+  border: 0;
+  z-index: 3;
+  font-family: "Times New Roman", Times, serif;
+}
+.input-pass-cont {
+  display: flex;
+}
+.visibility-container {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+}
+.title-css {
+  font-size: 1.7vh;
+  color: #ffffff;
+  margin-left: 12px;
+  z-index: 4;
+  font-family: "Times New Roman", Times, serif;
+}
+.password-cont-input {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.input-cont-com {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 90%;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  line-height: 1px;
+}
+@media (max-width: 1000px) {
+  .title-css {
+    font-size: 2vh;
+  }
+  .white-container {
+    box-shadow: none;
+  }
+  .input-cont-com {
+    margin-left: -3vh;
+  }
+}
+@media (max-width: 890px) {
+  .input-container {
+    /* margin-left: -9rem; */
+  }
+}
+
+@media (max-width: 800px) {
+  .containerLogin {
+    background: linear-gradient(to top, #326917 80%, white 0%);
+  }
+  .white-container {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: none;
+  }
+  .image-css {
+    height: 100px;
+    width: 260px;
+    position: absolute;
+    top: 2vh;
+    background-color: transparent;
+  }
+  .input-container {
+    width: 100%;
+    display: flex;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-cont-com {
+    width: 100%;
+    margin-top: 10vh;
+  }
+}

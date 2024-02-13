@@ -1,0 +1,17 @@
+[
+  {
+    "vehiclePlateNo": "ABC123",
+    "type": "Car",
+    "make": "Toyota",
+    "model": "Camry",
+    "color": "Blue",
+    "class": "Sedan",
+    "bodyMarkings": "None",
+    "registeredOwner": "John Doe",
+    "address": "123 Main St",
+    "contactNo": "555-1234",
+    "apprehendingOfficer": "Officer Smith",
+    "status": "Pending",
+    "violations": ["Speeding", "Running Red Light", "Parking Violation"]
+  }
+]

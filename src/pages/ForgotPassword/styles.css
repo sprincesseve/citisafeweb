@@ -1,0 +1,58 @@
+.forgotpass-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: linear-gradient(to top, #5c9b3d 50%, white 0%);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgotpass-subcon {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 50%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 3px #0f3115;
+  padding: 10px;
+}
+.form-forgotpass {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-forgotpass {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .forgotpass-subcon {
+    width: 100%;
+  }
+  .forgotpass-container {
+    background: linear-gradient(to top, #5c9b3d 70%, white 0%);
+  }
+  .forgotpass-subcon {
+    border-radius: 15px;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .forgotpass-subcon {
+    width: 100%;
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 1px;
+  }
+  .forgotpass-container {
+    align-items: normal;
+    background: linear-gradient(to top, white 90%, #ffffff 0%);
+  }
+}

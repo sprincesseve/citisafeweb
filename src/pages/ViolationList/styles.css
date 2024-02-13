@@ -1,0 +1,144 @@
+.violation-pen-table-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  background-color: white;
+  overflow-y: auto;
+}
+.bg-status-pen {
+  width: 180px;
+  margin-left: -10px;
+}
+.action-pen {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100px;
+  background-color: transparent;
+}
+.penalty-stat-con {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.table-conatiner-penalty {
+  width: 100%;
+  border-collapse: collapse;
+}
+.header-title.pen.action {
+  width: 200px;
+}
+.header-title.pen.status {
+  width: 200px;
+}
+.content-title.pen {
+  border: 1px solid white;
+  text-align: center;
+  height: fit-content;
+  padding: 10px;
+}
+.title-size.pen {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.first-layer-list {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 85%;
+  margin-top: 4%;
+  flex-direction: column;
+}
+
+.search-list-con {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  margin-top: 30px;
+}
+
+.buttons-container {
+  display: flex;
+  width: 100%;
+  height: 10%;
+}
+
+.input-css-violation {
+  display: flex;
+  outline: none;
+  border: 0;
+  height: 46px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+}
+.input-css-container {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-paper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.direction-pen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-paper-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 60vh;
+  height: auto;
+  border-radius: 10px;
+  align-items: center;
+  padding: 20px;
+}
+
+.sub-pen {
+  height: 90%;
+  width: 100%;
+  overflow-y: auto;
+}
+@media (max-width: 1000px) {
+  .violation-pen-table-container {
+    margin-top: 5vh;
+  }
+}
+@media (max-width: 600px) {
+  .buttons-container {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-pen {
+    height: 100%;
+  }
+  .modal-paper-2 {
+    width: 90%;
+  }
+  .direction-pen {
+    display: flex;
+    flex-direction: column;
+  }
+  .penalty-stat-con {
+    width: 140px;
+  }
+}

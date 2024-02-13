@@ -1,0 +1,69 @@
+.white {
+  background: linear-gradient(#1c3692 30%, #5c7ffd 70%, white);
+  box-shadow: rgba(215, 214, 228, 0.247) 0px 0px 20px 10px;
+  height: 88vh;
+  width: 95%;
+  position: fixed;
+  top: 90px;
+  left: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+.info {
+  text-align: center;
+  color: white;
+}
+
+.info h1,
+.info h2,
+.info h3,
+.info h4 {
+  margin: 5px 0;
+}
+
+.inputs {
+  flex-direction: row;
+  display: flex;
+  margin-top: 30px;
+}
+
+.Avatar {
+  color: white;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-modal {
+  width: 150vh; /* Adjust the width of the modal */
+  height: 90vh; /* Allow the height to adjust based on content */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.avatar-modal-title {
+  color: white;
+}

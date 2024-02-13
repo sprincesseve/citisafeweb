@@ -1,0 +1,114 @@
+/*NEW*/
+
+.filterAZ {
+  display: flex;
+  border: 1px solid #c4c4c4;
+  border-radius: 15px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.container-datePick {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.calender-range-container {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  transform: translateY(80px);
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px 0px black;
+}
+
+.container-date-btn {
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  border: 1px solid #c4c4c4;
+}
+.confirm-btn-date {
+  display: flex;
+  background-color: rgb(212, 255, 211);
+  justify-content: space-between;
+  box-shadow: 0px -2px 1px 0px rgb(209, 209, 209);
+}
+/*OLD*/
+
+.Select {
+  flex-direction: column;
+}
+
+.title-form {
+  line-height: 0;
+  font-size: 15px;
+  margin-left: 2%;
+}
+
+.styles-input {
+  outline: none;
+  border: 0;
+  border-radius: 20px;
+  background-color: #e7e9ee;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.select-css {
+  background-color: #e7e9ee;
+  border: 0;
+  outline: 0;
+
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.passInput {
+  background-color: grey;
+  position: absolute;
+  display: flex;
+}
+.ComUpdateContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 25vw;
+}
+/* For laptops */
+@media (max-width: 1199px) {
+  .ComUpdateContainer {
+    width: 35vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .ComUpdateContainer {
+    width: 80vw;
+  }
+  .calender-range-container {
+    display: flex;
+    flex: 1;
+    position: absolute;
+    margin-left: -35px;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 10px;
+    padding: 10px;
+    transform: translateY(50px);
+    flex-direction: column;
+    overflow-x: auto; /* Add this to enable horizontal scrolling */
+    max-width: 300px;
+  }
+
+  .custom-date-picker-wrapper {
+    overflow-x: auto; /* Add this to enable horizontal scrolling */
+    max-width: 400px; /* Set a max-width or adjust as needed */
+  }
+}

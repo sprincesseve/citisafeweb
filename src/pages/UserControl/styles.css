@@ -1,0 +1,186 @@
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.content-title.user {
+  line-height: 1px;
+}
+
+.content-title.status {
+  width: 150px;
+}
+
+.status-container.user {
+  width: 100%;
+}
+
+.table-sub-user {
+  height: 75%;
+  width: 100%;
+  overflow-y: auto;
+  margin-top: 5vh;
+}
+.container1 {
+  height: 90vh;
+  width: 97%;
+  margin-top: 70px;
+  position: fixed;
+}
+
+.container2 {
+  height: 90vh;
+  width: 100%;
+}
+
+.row {
+  flex: 1;
+  color: white;
+}
+
+.add-user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.add-user-subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-layer-control {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 95%;
+  margin-top: 4%;
+  flex-direction: column;
+}
+
+.search-box-user {
+  height: 2.5rem;
+  width: 25rem;
+  border-radius: 20px;
+  outline: none;
+  border: 0;
+  background-color: #e7e9ee;
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 20px;
+}
+
+.search-icon-user {
+  position: absolute;
+  left: 0;
+}
+.search-container-user {
+  display: flex;
+  margin-left: 1.5%;
+  width: 100%;
+  height: 7%;
+}
+.table-conatiner-user {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  background-color: white;
+  overflow-y: auto;
+}
+.tab-con-2-user {
+  display: flex;
+  width: 95%;
+  height: 90%;
+  margin-top: 2%;
+}
+.form-user {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+.next-user-container {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.next-user-btn {
+  width: 10%;
+}
+.add-container {
+  width: 100%;
+  height: 100%;
+}
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.selection-cont {
+  width: 46%;
+}
+.selection-cont2 {
+  width: 46%;
+}
+@media (max-width: 1000px) {
+  .table-conatiner-user {
+    margin-top: 5vh;
+  }
+}
+@media (max-width: 600px) {
+  .table-conatiner-user {
+    margin-top: 0vh;
+  }
+  .table-sub-user {
+    height: 90%;
+  }
+  .selection-cont {
+    width: 92%;
+  }
+  .search-box-user {
+    width: 65%;
+  }
+  .cont-select {
+    display: flex;
+    flex-direction: column;
+  }
+  .add-user-container {
+    justify-content: center;
+  }
+
+  .add-user-subcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  .search-container-user {
+    width: 100%;
+    display: flex;
+  }
+  .form-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .next-user-container {
+    position: fixed;
+    align-items: center;
+    width: 95%;
+  }
+  .next-user-btn {
+    width: 40%;
+  }
+  .button-next-back {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 5%;
+  }
+  .status-container.user {
+    width: 140px;
+  }
+}

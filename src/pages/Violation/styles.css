@@ -1,0 +1,376 @@
+.violation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.empty-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.title-size {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.header-title {
+  border: 1px solid white;
+  font-size: 13px;
+  text-align: center;
+  background-color: white;
+}
+
+.content-title {
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  height: fit-content;
+  padding: 10px;
+}
+
+.table-flex {
+  height: 80%;
+  width: 100%;
+}
+
+.content-title.status {
+  width: 100px;
+}
+
+.violation-table-container {
+  width: 95%;
+  height: auto;
+  display: flex;
+  background-color: white;
+}
+
+/*NEW*/
+.container-filter {
+  display: flex;
+  flex: 1;
+  padding: 5px;
+  padding-left: 3%;
+  margin-top: 10px;
+}
+.sub-filterStatus {
+  display: flex;
+}
+.other-filter {
+  display: flex;
+  flex-direction: row;
+}
+.restart {
+  height: 100%;
+  border-radius: 10px;
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #c4c4c4;
+}
+/*OLD*/
+
+.first-layer-violation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.navbar-container {
+  background-color: white;
+  display: flex;
+  height: 17%;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.navbar-container-2 {
+  background-color: rgb(255, 255, 255);
+  height: 17%;
+  width: 100%;
+}
+
+.row-details {
+  background-color: #ebebeb;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.row-details-value {
+  padding-left: 10px;
+  border: 0.3px solid #ebebeb;
+}
+
+.search-container-violation {
+  display: flex;
+  width: 90%;
+  height: 8%;
+  margin-left: 3%;
+}
+
+.table-conatiner-violation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tab-con-2 {
+  display: flex;
+  width: 95%;
+  height: auto;
+}
+
+.tab-con-2.scrollable-table {
+  overflow-y: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: auto;
+  height: auto;
+  border: 0;
+}
+.table-row {
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.table-body-row {
+  display: flex;
+}
+
+.table-cell.id {
+  width: 50px;
+}
+.check-close {
+  margin-left: 20px;
+}
+
+.table-cell-row {
+  height: 10px;
+}
+
+.violation-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.violation-subcontainer {
+  display: flex;
+  margin-top: 3%;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+
+.even-row {
+  background-color: #e7e9ee;
+}
+
+.odd-row {
+  background-color: white;
+}
+.ticket {
+  text-decoration: none;
+  color: rgb(30, 204, 39);
+  font-weight: bold;
+  transition: 0.5s;
+}
+.ticket:hover {
+  color: rgb(17, 0, 255);
+  font-weight: bolder;
+}
+
+.hover-message {
+  background-color: #3e7c1fab;
+  color: white;
+  display: flex;
+  flex: 1;
+  position: absolute;
+  border-radius: 10px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  left: 4%;
+}
+
+.view-more {
+  font-weight: bold;
+}
+
+.container-ticket {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.hover-message:hover {
+  opacity: 1; /* Fully visible on hover */
+}
+.status-container {
+  height: auto;
+  width: 150px;
+  align-items: center;
+  display: flex;
+}
+.search-box {
+  height: 2.5rem;
+  width: 25rem;
+  border-radius: 20px;
+  outline: none;
+  border: 0;
+  background-color: #e7e9ee;
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 20px;
+}
+
+.search-container {
+  margin-left: 5%;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: white;
+}
+/* Define a class for active page */
+.activePage {
+  background-color: #3e7c1f;
+}
+
+/* Define a class for inactive pages */
+.inactivePage {
+  background-color: #e0e0e0;
+}
+.bg-status {
+  width: 250px;
+  margin-left: -10px;
+}
+.modal-paper-violation {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .table-flex {
+    height: 80%;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .violation-table {
+    width: 100%;
+    overflow-x: 100%;
+  }
+  .violation-table-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  .first-layer-violation {
+    margin-top: -10vh;
+    height: 85%;
+  }
+  .navbar-container {
+    height: 1%;
+    width: 100%;
+  }
+
+  .tab-con-2 {
+    height: auto;
+  }
+
+  .search-container-violation {
+    align-items: center;
+    justify-content: center;
+  }
+  .search-icon {
+    margin-left: 5%;
+  }
+
+  .violation-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .violation-subcontainer {
+    display: flex;
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .search-box {
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    background-color: #e7e9ee;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 20px;
+  }
+  .even-row {
+    width: 300px;
+  }
+
+  .odd-row {
+    width: 300px;
+  }
+  .bg-status {
+    display: flex;
+    width: 150px;
+    margin-left: -10px;
+  }
+  .sub-filterStatus {
+    flex-direction: column;
+  }
+  .container-filter {
+    flex-direction: column;
+  }
+  .other-filter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .sub-filterStatus.sub {
+    flex-direction: column;
+    height: 25%;
+    margin-top: -120px;
+  }
+}

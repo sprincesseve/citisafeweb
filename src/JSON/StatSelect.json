@@ -1,0 +1,7 @@
+[
+  { "value": "PENDING", "label": "PENDING" },
+  { "value": "PAID", "label": "PAID" },
+  { "value": "OVERDUE", "label": "OVERDUE" },
+  { "value": "DROPPED", "label": "DROPPED" },
+  { "value": "COMMUNITY SERVICE", "label": "SERVICE" }
+]
